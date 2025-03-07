@@ -23,6 +23,7 @@ function Carousels(){
       />
         {/* Tagline Overlay */}
         <div className="video-overlay">
+          <h1>Hello,</h1>
             <h1>Welcome to M.Ark Design Studio Where Creativity Meets Elegance!</h1>
             <h2>Welcome to M.Ark Design Studio Where Creativity Meets Elegance!</h2>
           </div>
