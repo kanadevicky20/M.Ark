@@ -7,8 +7,6 @@ import About from "./about";
 function AboutPage(){
     return(
         <> 
-          <Navbar/>
-          <Topbar/>
         <About/>
          <Footer/>
         </>

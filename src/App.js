@@ -7,11 +7,14 @@ import ProjectPage from './ProjectPage';
 import ContactPage from './ContactPage';
 import AboutPage from './AboutPage';
 import AdminPage from './AdminPage';
+import Navbar from './navbar';
 
 function App() {
   return (
     <div className="App">
+      
       <Router>
+       <Navbar/>
         <Routes>
           <Route path='*' element={<Mainscreen/>}></Route>
           <Route path='/service' element={<ServicePage/>}></Route>
@@ -19,7 +22,6 @@ function App() {
           <Route path='/contact' element={<ContactPage/>}></Route>
           <Route path='/about' element={<AboutPage/>}></Route>
           <Route path='/admin' element={<AdminPage/>}></Route>
-
         </Routes>
       </Router>
     </div>

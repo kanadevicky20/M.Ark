@@ -7,8 +7,6 @@ import Contact from "./contact";
 function ContactPage(){
     return(
         <> 
-          <Navbar/>
-          <Topbar/>
         <Contact/>
          <Footer/>
         </>

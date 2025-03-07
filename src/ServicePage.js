@@ -6,8 +6,6 @@ import Footer from "./footer";
 function ServicePage(){
     return(
         <>
-        <Navbar/>
-        <Topbar/>
          <Service/>
          <Footer/>
          </>

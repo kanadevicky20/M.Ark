@@ -13,8 +13,7 @@ import Admin from "./admin";
 function Mainscreen(){
     return(
         <>
-        <Navbar/>
-        <Topbar/>
+        {/* <Topbar/> */}
         <Carousel/>
         <About/>
         <Service/>

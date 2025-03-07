@@ -5,6 +5,27 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+/* Tagline Overlay */
+.video-overlay {
+  /* position: absolute;
+  top: 20%;
+  left: 60%; */
+
+  position: absolute;
+  top: 20%;
+  left: 5%;  /* Moves text to the left side */
+  font-size: 5rem;  /* Adjust for readability */
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;  /* Aligns text to the left */
+  width: 38%; /* Ensures text stays in two lines */
+  word-wrap: break-word; /* Ensures long text breaks into lines */
+  color:#FFD700;
+}
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -365,7 +386,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   line-height: 1.2;
-  color: #252531;
+  color: #000000;
 }
 
 h1, .h1 {
@@ -9530,7 +9551,7 @@ h6 {
   height: 50%;
   bottom: 0;
   left: 0;
-  background: #ffffff;
+  background:#1c1818;
 }
 
 .navbar-dark .navbar-nav .nav-link {

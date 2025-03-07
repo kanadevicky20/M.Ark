@@ -7,9 +7,6 @@ import Admin from "./admin";
 function AdminPage(){
     return(
         <> 
-          <Navbar/>
-          <Topbar/>
-          <h1>AdminPage...</h1>
           <Admin/>
          <Footer/>
         </>

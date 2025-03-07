@@ -6,8 +6,6 @@ import Footer from "./footer";
 function ProjectPage(){
     return(
         <> 
-          <Navbar/>
-          <Topbar/>
         <Project/>
          <Footer/>
         </>

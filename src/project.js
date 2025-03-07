@@ -33,7 +33,7 @@ function Project(){
                   <img className="img-fluid" src={img1} alt="" />
                 </div>
                 <div className="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                  <h4 className="text-white mb-4">ALBA HOUSE</h4>
+                  <h4 className="text-white mb-4">ABC HOUSE</h4>
                   <div className="d-flex align-items-center justify-content-center">
                     <a className="btn btn-outline-primary m-1" href>
                       <i className="fa fa-link" />
@@ -51,7 +51,7 @@ function Project(){
                   <img className="img-fluid" src={img2} alt="" />
                 </div>
                 <div className="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                  <h4 className="text-white mb-4">BOULEVARD F APARTMENT</h4>
+                  <h4 className="text-white mb-4">ABC APARTMENT</h4>
                   <div className="d-flex align-items-center justify-content-center">
                     <a className="btn btn-outline-primary m-1" href>
                       <i className="fa fa-link" />
@@ -69,7 +69,7 @@ function Project(){
                   <img className="img-fluid" src={img3} alt="" />
                 </div>
                 <div className="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                  <h4 className="text-white mb-4">URBAN SHELTER</h4>
+                  <h4 className="text-white mb-4">ABC SHELTER</h4>
                   <div className="d-flex align-items-center justify-content-center">
                     <a className="btn btn-outline-primary m-1" href>
                       <i className="fa fa-link" />
@@ -87,7 +87,7 @@ function Project(){
                   <img className="img-fluid" src={img4} alt="" />
                 </div>
                 <div className="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                  <h4 className="text-white mb-4">MARRIOTT HOTEL</h4>
+                  <h4 className="text-white mb-4">ABC HOTEL</h4>
                   <div className="d-flex align-items-center justify-content-center">
                     <a className="btn btn-outline-primary m-1" href>
                       <i className="fa fa-link" />
@@ -105,7 +105,7 @@ function Project(){
                   <img className="img-fluid" src={img5} alt="" />
                 </div>
                 <div className="portfolio-text bg-secondary d-flex flex-column align-items-center justify-content-center">
-                  <h4 className="text-white mb-4">HERNE HILL HOUSE</h4>
+                  <h4 className="text-white mb-4">ABC HILL HOUSE</h4>
                   <div className="d-flex align-items-center justify-content-center">
                     <a className="btn btn-outline-primary m-1" href>
                       <i className="fa fa-link" />
