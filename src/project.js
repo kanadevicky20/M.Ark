@@ -1,19 +1,25 @@
 import React, { useState } from "react";
 import "./css/style.css";
-import img1 from "./img/portfolio-1.jpg";
-import img2 from "./img/portfolio-2.jpg";
-import img3 from "./img/portfolio-3.jpg";
-import img4 from "./img/portfolio-4.jpg";
-import img5 from "./img/portfolio-5.jpg";
-import img6 from "./img/portfolio-6.jpg";
+import img1 from "./img/B1.png";
+import img2 from "./img/B3.png";
+import img3 from "./img/B4.png";
+import img4 from "./img/L1.png";
+import img5 from "./img/L2.png";
+import img6 from "./img/L3.png";
+import img7 from "./img/blog-1.jpg";
+import img8 from "./img/blog-2.jpg";
+import img9 from "./img/blog-3.jpg";
 
 const projectsData = [
-  { id: 1, category: "first", title: "ABC HOUSE", img: img1 },
-  { id: 2, category: "second", title: "ABC APARTMENT", img: img2 },
-  { id: 3, category: "third", title: "ABC SHELTER", img: img3 },
-  { id: 4, category: "first", title: "ABC HOTEL", img: img4 },
-  { id: 5, category: "second", title: "ABC HILL HOUSE", img: img5 },
-  { id: 6, category: "third", title: "GARCIA APARTMENT", img: img6 },
+  { id: 1, category: "first", title: "BEDROOM VIEW", img: img1 },
+  { id: 2, category: "first", title: "BEDROOM VIEW", img: img2 },
+  { id: 3, category: "first", title: "BEDROOM VIEW", img: img3 },
+  { id: 4, category: "second", title: "LIVING ROOM", img: img4 },
+  { id: 5, category: "second", title: "LIVING ROOM", img: img5 },
+  { id: 6, category: "second", title: "DRAWING ROOM", img: img6 },
+  { id: 7, category: "third", title: "LIVING ROOM", img: img7 },
+  { id: 8, category: "third", title: "HALL VIEW", img: img8 },
+  { id: 9, category: "third", title: "STUDIO APARTMENT", img: img9 },
 ];
 
 function Project() {

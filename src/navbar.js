@@ -1,5 +1,6 @@
 import './css/style.css';
 import { useNavigate } from 'react-router-dom';
+import logo from './img/mlogo.png';
 
 function Navbar() {
   const navigate = useNavigate();
@@ -18,7 +19,8 @@ function Navbar() {
           {/* Logo */}
           <a href="#" className="navbar-brand">
             <h1 className="m-0 display-5 text-white">
-              <span className="text-primary">M.</span>ark
+              {/* <span className="text-primary">M.</span>ark */}
+              <img src={logo} alt='logo' width={200} height={80}></img>
             </h1>
           </a>
 

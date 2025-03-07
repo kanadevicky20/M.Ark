@@ -4091,6 +4091,8 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  font-size: large;
+  
 }
 
 .navbar-collapse {
@@ -9575,6 +9577,8 @@ h6 {
   letter-spacing: 1px;
   color: #F3F6FF;
   outline: none;
+  font-size: large;
+  font-weight: bold;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,

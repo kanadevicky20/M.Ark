@@ -9,6 +9,7 @@ import AdminPage from "./AdminPage";
 import Navbar from "./navbar";
 import Project from "./project";
 import ProjectPage from "./ProjectPage";
+import SocialMedia from "./SocialMedia";
 
 const pageVariants = {
   initial: { opacity: 0, y: 50 },
@@ -81,6 +82,7 @@ const App = () => {
     <div className="App">
       <Router>
       <Navbar/>
+      <SocialMedia/>
         <AnimatedRoutes />
       </Router>
     </div>
