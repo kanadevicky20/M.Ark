@@ -1,13 +1,12 @@
-import Project from "./project";
-import Navbar from "./navbar";
-import Topbar from "./topbar";
 import Footer from "./footer";
+import Project from "./project";
+
 
 function ProjectPage(){
     return(
         <> 
         <Project/>
-         <Footer/>
+        <Footer/>
         </>
     );
 }

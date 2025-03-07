@@ -5,7 +5,14 @@ import vid1 from './img/living room.mp4'
 function Carousels(){
 
     return(
-      <Carousel interval={10000} fade={true} wrap={true} slide={true}>
+<Carousel 
+  interval={10000} 
+  fade={true} 
+  wrap={true} 
+  slide={false} 
+  controls={false}  // Hides next & previous arrows
+  indicators={false}  // Hides bottom indicators
+>
       {/* <Carousel.Item style={{height:"600px"}} >
         
         <video src={vid1} loop muted autoPlay  />
@@ -13,7 +20,7 @@ function Carousels(){
       </Carousel.Item> */}
 
       <Carousel.Item >
-        <div style={{ height: "805px", display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden", paddingBottom:"100px" }}>
+        <div style={{ height: "805px", display: "flex", justifyContent: "center", alignItems: "center", overflow: "hidden", paddingBottom:"50px" }}>
       <video 
         src={vid1} 
         loop 
@@ -23,9 +30,7 @@ function Carousels(){
       />
         {/* Tagline Overlay */}
         <div className="video-overlay">
-          <h1>Hello,</h1>
             <h1>Welcome to M.Ark Design Studio Where Creativity Meets Elegance!</h1>
-            <h2>Welcome to M.Ark Design Studio Where Creativity Meets Elegance!</h2>
           </div>
     </div>
         

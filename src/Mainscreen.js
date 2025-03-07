@@ -9,17 +9,19 @@ import Team from "./team";
 import Testimonial from "./testimonial";
 import Footer from "./footer";
 import Admin from "./admin";
+import SocialMedia from "./SocialMedia";
 
 function Mainscreen(){
     return(
         <>
         {/* <Topbar/> */}
+        <SocialMedia/>
         <Carousel/>
         <About/>
         <Service/>
         <Feature/>
         <Project/>
-        <Admin/>
+        {/* <Admin/> */}
         <Team/>
         <Testimonial/>
         <Footer/>
