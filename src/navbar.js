@@ -17,7 +17,7 @@ function Navbar() {
         <div className="container">
           
           {/* Logo */}
-              <img src={logo} alt='logo' width={120} height={75}></img>
+              <img src={logo} alt='logo' width={110} height={90}></img>
           <a href="#" className="navbar-brand">
             <h4 className="m-0 display-5 text-white">
               {/* <span className="text-primary">M.</span>ark */}

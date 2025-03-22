@@ -3,7 +3,7 @@ import img1 from './img/feature.jpg';
 function Feature(){
 
     return(
-      <div className="container-fluid bg-light">
+      <div className="container-fluid bg-blue">
       <div className="container">
         <div className="row align-items-center"> {/* Ensures vertical alignment */}
           
@@ -19,13 +19,13 @@ function Feature(){
             </p>
             
             <ul className="list-unstyled">
-              <li><h5><i className="far fa-check-square text-primary mr-2" /> Client-Centric Approach</h5></li>
-              <li><h5><i className="far fa-check-square text-primary mr-2" /> Blend of Aesthetics & Functionality</h5></li>
-              <li><h5><i className="far fa-check-square text-primary mr-2" /> Innovative & Customized Designs</h5></li>
-              <li><h5><i className="far fa-check-square text-primary mr-2" /> Expertise & Fresh Perspectives</h5></li>
+              <li><h5><i className="far fa-check-square text-white mr-2" /> Client-Centric Approach</h5></li>
+              <li><h5><i className="far fa-check-square text-white mr-2" /> Blend of Aesthetics & Functionality</h5></li>
+              <li><h5><i className="far fa-check-square text-white mr-2" /> Innovative & Customized Designs</h5></li>
+              <li><h5><i className="far fa-check-square text-white mr-2" /> Expertise & Fresh Perspectives</h5></li>
             </ul>
             
-            <a href="#" className="btn btn-primary mt-3 py-2 px-4">View More</a>
+            <a href="#" className="btn btn-secondary mt-3 py-2 px-4">View More</a>
           </div>
     
           {/* Right Column - Image Section */}

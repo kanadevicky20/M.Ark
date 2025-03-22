@@ -17,52 +17,52 @@ function Service(){
   <a href="#" className="btn btn-primary mt-3 py-2 px-4">View More</a>
 </div>
 
-          <div className="col-lg-6 p-0 pt-5 pt-lg-0">
-            <div className="owl-carousel service-carousel position-relative">
-              <div className="d-flex flex-column text-left bg-light mx-3 p-4">
-                <h3 className="flaticon-bathroom display-3 font-weight-normal text-primary mb-3"></h3>
-                <h5 className="mb-3">3D ARCHITECTURAL WALKTHROUGH ANIMATION</h5>
-                <p className="m-0">Builders and real estate developers may get the quickest 3D walkthrough animation from 3D Power, 
-                  also referred to as the Walkthrough Expert Company.
-                   We provide cutting-edge 3D architectural animation services that will significantly improve and elevate your project.</p>
-                   <div className="bullet-list">
-  <p className="m-1">3D Architectural Rendering.</p>
-  <p className="m-1">3D Walkthrough for Apartment.</p>
-  <p className="m-1">3D Walkthrough for Commercial Projects.</p>
-  <p className="m-1">3D Walkthrough for Smart City.</p>
-  <p className="m-1">3D Walkthrough for School.</p>
-  <p className="m-1">3D Walkthrough for Interiors.</p>
-</div>
-
-     
-              </div>
-              <div className="d-flex flex-column text-left bg-light mx-3 p-4">
-                <h3 className="flaticon-bedroom display-3 font-weight-normal text-primary mb-3"></h3>
-                <h5 className="mb-3">Architecture</h5>
-                <p className="m-0">
+    <div className="col-lg-6 p-0 pt-5 pt-lg-0" >
+            <div className="owl-carousel service-carousel position-relative" >
+            <div className="d-flex flex-column text-left bg-dark text-white mx-3 p-4">
+            <h3 className="flaticon-bedroom display-3 font-weight-normal text-primary mb-3"></h3>
+                <h5 className="mb-3 text-white">Architecture</h5>
+                <p className="m-0 text-white" >
                   M.ark Design Studio, we provide comprehensive architectural design services with a focus on modern and 
                   functional aesthetics. With extensive expertise in spatial planning, we understand how people, organisations, 
                   and communities interact with their environments. Our collaborative approach ensures innovative and tailored 
                   solutions for both residential and commercial spaces.
                 </p>
               </div>
-              <div className="d-flex flex-column text-left bg-light mx-3 p-4">
+              <div className="d-flex flex-column text-left bg-dark mx-3 p-4">
                 <h3 className="flaticon-kitchen display-3 font-weight-normal text-primary mb-3"></h3>
-                <h5 className="mb-3">Interior Designs</h5>
-                <p className="m-0">
+                <h5 className="mb-3 text-white">Interior Designs</h5>
+                <p className="m-0 text-white">
                   We specialise in designing sophisticated and functional interior spaces that enhance both living and working 
                   environments. Our team is committed to delivering the highest standards in interior design for a diverse range 
                   of projects, including corporate offices, academic.
                 </p>
               </div>
-              <div className="d-flex flex-column text-left bg-light mx-3 p-4">
+              <div className="d-flex flex-column text-left bg-dark mx-3 p-4">
                 <h3 className="flaticon-bathroom display-3 font-weight-normal text-primary mb-3"></h3>
-                <h5 className="mb-3">Construction</h5>
-                <p className="m-0">
+                <h5 className="mb-3 text-white">Construction</h5>
+                <p className="m-0 text-white">
                   Our construction services are built on a foundation of quality, efficiency, and meticulous attention to detail. 
                   We prioritize smart building practices and sustainable solutions to ensure long-term success. With a commitment 
                   to excellence, we deliver projects that seamlessly blend aesthetics with structural integrity.
                 </p>
+              </div>
+              <div className="d-flex flex-column text-left bg-dark mx-3 p-4">
+                <h3 className="flaticon-bathroom display-3 font-weight-normal text-primary mb-3"></h3>
+                <h5 className="mb-3 text-white">3D ARCHITECTURAL WALKTHROUGH ANIMATION</h5>
+                <p className="m-0 text-white">Builders and real estate developers may get the quickest 3D walkthrough animation from 3D Power, 
+                  also referred to as the Walkthrough Expert Company.
+                   We provide cutting-edge 3D architectural animation services that will significantly improve and elevate your project.</p>
+                   <div className="bullet-list">
+  <p className="m-1 text-white">3D Architectural Rendering.</p>
+  <p className="m-1 text-white">3D Walkthrough for Apartment.</p>
+  <p className="m-1 text-white">3D Walkthrough for Commercial Projects.</p>
+  <p className="m-1 text-white">3D Walkthrough for Smart City.</p>
+  <p className="m-1 text-white">3D Walkthrough for School.</p>
+  <p className="m-1 text-white">3D Walkthrough for Interiors.</p>
+</div>
+
+     
               </div>
             </div>
           </div>

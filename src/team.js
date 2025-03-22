@@ -29,8 +29,8 @@ function Team(){
                   </div>
                   <div className="d-flex flex-column bg-secondary py-3 align-items-center text-start">
                       <h5 className="text-white">✔️ AR. MANISH CHANDERASHEKHAR PATIL</h5>
-                      <p className="m-0">(B.ARCH, KOLHAPUR)</p>
-                      <p className="m-0">FOUNDER / DIRECTOR / PRINCIPAL ARCHITECT</p>
+                      <p className="m-0 text-white">(B.ARCH, KOLHAPUR)</p>
+                      <p className="m-0 text-white">FOUNDER / DIRECTOR / PRINCIPAL ARCHITECT</p>
                   </div>
 
                   {/* <div className="d-flex flex-column bg-secondary py-3 align-items-center text-start">
