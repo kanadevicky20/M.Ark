@@ -4,11 +4,15 @@ function Footer(){
     return(
         <div className="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
         <div className="row pt-5">
-        <div className="col-lg-3 col-md-6 mb-5" style={{ textAlign: "left" }}>
+
+    <div className="col-lg-3 col-md-6 mb-5" style={{ textAlign: "left" }}>
   <h4 className="text-primary mb-4">Get In Touch</h4>
-  <p><i className="fa fa-map-marker-alt mr-2" /> Jalgaon, India</p>
-  <p><i className="fa fa-phone-alt mr-2" /> 7666564295 / 8830837987</p>
-  <p><i className="fa fa-envelope mr-2" /> info.markdesignstudio@gmail.com</p>
+  <p style={{ color: "white" }}><i className="fa fa-map-marker-alt mr-2" /> Jalgaon, India</p>
+  {/* <p><i className="fa fa-phone-alt mr-2" /> 7666564295 / 8830837987</p> */}
+  <p style={{ color: "white" }}>
+  <i className="fa fa-phone-alt mr-2" /> 7666564295 / 8830837987
+</p>
+  <p style={{ color: "white" }}><i className="fa fa-envelope mr-2" /> info.markdesignstudio@gmail.com</p>
 
   <div className="d-flex mt-4">
     <a className="btn btn-outline-light rounded-circle mr-2 px-0"

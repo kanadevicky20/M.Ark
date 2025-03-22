@@ -1,6 +1,6 @@
 import './css/style.css';
 import { useNavigate } from 'react-router-dom';
-import logo from './img/mlogo.png';
+import logo from './img/logomarc.png';
 
 function Navbar() {
   const navigate = useNavigate();
@@ -17,11 +17,13 @@ function Navbar() {
         <div className="container">
           
           {/* Logo */}
+              <img src={logo} alt='logo' width={120} height={75}></img>
           <a href="#" className="navbar-brand">
-            <h1 className="m-0 display-5 text-white">
+            <h4 className="m-0 display-5 text-white">
               {/* <span className="text-primary">M.</span>ark */}
-              <img src={logo} alt='logo' width={200} height={80}></img>
-            </h1>
+            M.ARK <br></br> 
+            Design Studio 
+            </h4>
           </a>
 
           {/* Mobile Toggle Button */}

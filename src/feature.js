@@ -11,12 +11,11 @@ function Feature(){
           <div className="col-lg-7 mt-5 py-5 pr-lg-5 text-lg-left text-center">
             <h6 className="text-primary font-weight-normal text-uppercase mb-3">Why Choose Us?</h6>
             <h1 className="mb-4 section-title">
-              Our designs are both beautiful and practical, ensuring comfort and efficiency in every space.
-            </h1>
+             Why Choose Us For Architecture/Interior Work? </h1>
             <p className="mb-4">
-              We understand that every client has unique needs and preferences. We bring innovative designs to 
-              turn your vision into reality, offering a wide range of ideas to inspire you. We welcome open discussions 
-              to refine your dream space.
+            Our goal is to provide you with a long-lasting house by using only
+             the best materials, cutting-edge production techniques, thorough 
+             quality inspections, expert installs, and upfront pricing.
             </p>
             
             <ul className="list-unstyled">
