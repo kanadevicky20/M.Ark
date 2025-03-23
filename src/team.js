@@ -13,7 +13,7 @@ function Team(){
             <div className="col-md-4 col-sm-6">
               <div className="py-5 px-4 h-100 bg-primary d-flex flex-column align-items-center justify-content-center">
                 <h6 className="text-white font-weight-normal text-uppercase mb-3">Our Team</h6>
-                <h1 className="mb-0 text-center">The magicians who transform and create space</h1>
+                <h1 className="mb-0 text-center">Great designs need strong foundations just like our team!</h1>
               </div>
             </div>
             <div className="col-md-8 col-sm-6 p-0 py-sm-5">

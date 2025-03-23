@@ -2409,7 +2409,7 @@ fieldset:disabled a.btn {
   color: #212529;
   /* background-color: #DFB163;
   border-color: #DFB163; */
-  background-color: #17cacf;
+  background-color:#d8a143;
   border-color: #17cacf;
 }
 
@@ -2417,7 +2417,7 @@ fieldset:disabled a.btn {
   color: #212529;
   /* background-color: #d8a143;
   border-color: #d69c39; */
-  background-color: gray;
+  background-color: #17cacf;
   border-color: gray;
 }
 
@@ -2450,7 +2450,7 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #252531;
+  background-color: #d8a143;
   border-color: #252531;
 }
 
@@ -6248,7 +6248,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #181818 !important;
+  background-color:  #383131 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -7668,7 +7668,7 @@ button.bg-dark:focus {
 
 .pl-4,
 .px-4 {
-  padding-left: 1.5rem !important;
+  padding-left: 0.5rem !important;
 }
 
 .p-5 {

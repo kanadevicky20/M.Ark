@@ -33,7 +33,7 @@ function Footer(){
     </a>
   </div>
 </div>
-<div className="col-lg-3 col-md-6 mb-5" style={{ textAlign: "left" }}>
+{/* <div className="col-lg-3 col-md-6 mb-5" style={{ textAlign: "left" }}>
   <h4 className="text-primary mb-4">Quick Links</h4>
   <div>
     <a className="text-white mb-2" href="#">
@@ -52,7 +52,7 @@ function Footer(){
       <i className="fa fa-angle-right mr-2" /> Contact Us
     </a>
   </div>
-</div>
+</div> */}
 <div className="col-lg-3 col-md-6 mb-5" style={{ textAlign: "left" }}>
   <h4 className="text-primary mb-4">Popular Links</h4>
   <div>
