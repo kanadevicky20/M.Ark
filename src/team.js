@@ -8,7 +8,7 @@ function Team(){
 
     return(
         <div className="container-fluid bg-light"style={{ 
-          background: "linear-gradient(to bottom, #f8f9fa,rgb(84, 76, 76))", 
+          background: "linear-gradient(to bottom,#cecece,#cecece)", 
           boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)"
         }}>
         <div className="container">
@@ -36,17 +36,7 @@ function Team(){
                       <p className="m-0 text-white">FOUNDER / DIRECTOR / PRINCIPAL ARCHITECT</p>
                   </div>
 
-                  {/* <div className="d-flex flex-column bg-secondary py-3 align-items-center text-start">
-                      <h5 className="text-white">✔️Ar. Aniket Sambhaji Nimbalkar</h5>
-                      <p className="m-0">(B. Arch , Pune)</p>
-                      <p className="m-0">FOUNDER / DIRECTOR / PRINCIPAL ARCHITECT</p>
-                  </div>
-                    
-                  <div className="d-flex flex-column bg-secondary py-3 align-items-center text-start">
-                      <h5 className="text-white">✔️Mr. Jitendra B. Patil</h5>
-                      <p className="m-0">(BE Civil , Nashik)</p>
-                      <p className="m-0">Sr. Project Manager</p>
-                  </div> */}
+                 
 
                 </div>
               </div>

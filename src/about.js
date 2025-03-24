@@ -3,7 +3,7 @@ function About(){
 
     return(
       <div className="container-fluid bg-light" style={{ 
-        background: "linear-gradient(to bottom, #f8f9fa,rgb(84, 76, 76))", 
+        background: "linear-gradient(to bottom,#cecece,#cecece)", 
         boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)"
       }}>
         <div className="container">

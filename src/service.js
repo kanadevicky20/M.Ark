@@ -5,7 +5,10 @@ import "./css/style.css";
 function Service(){
 
     return(
-      <div className="container-fluid py-5">
+      <div className="container-fluid py-5"style={{ 
+        background: "linear-gradient(to bottom,#f0f0f0,#f0f0f0)", 
+        boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)"
+      }}>
       <div className="container py-5">
         <div className="row">
         <div 

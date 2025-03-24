@@ -6,7 +6,10 @@ import img3 from './img/testimonial.jpg';
 function Testimonial(){
 
     return(
-        <div className="container-fluid">
+        <div className="container-fluid"style={{ 
+          background: "linear-gradient(to bottom,#f0f0f0,#f0f0f0)", 
+          boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)"
+        }}>
         <div className="container">
           <div className="row">
             <div className="col-md-7 py-5 pr-md-5">
