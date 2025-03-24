@@ -1,6 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import "./css/style.css";
 import img1 from './img/feature.jpg';
 function Feature(){
+  const navigate=useNavigate();
+
+  function handleclick(){
+    navigate('/contact');
+  }
 
     return(
       <div className="container-fluid bg-blue">
@@ -25,7 +31,7 @@ function Feature(){
               <li><h5><i className="far fa-check-square text-white mr-2" /> Expertise & Fresh Perspectives</h5></li>
             </ul>
             
-            <a href="#" className="btn btn-secondary mt-3 py-2 px-4">View More</a>
+            <a  className="btn btn-secondary mt-3 py-2 px-4" onClick={handleclick}>Contact Us</a>
           </div>
     
           {/* Right Column - Image Section */}

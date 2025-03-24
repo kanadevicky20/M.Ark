@@ -13,7 +13,7 @@ function Testimonial(){
         <div className="container">
   <div className="row">
     <div className="col-md-7 py-5 pr-md-5">
-      <h1 className="mb-4 section-title">What Our Clients Say -</h1>
+      <h1 className="mb-4 section-title">What Our Clients Says -</h1>
       <div className="owl-carousel testimonial-carousel position-relative pb-5 mb-md-5">
         
         {/* Testimonial 1 */}

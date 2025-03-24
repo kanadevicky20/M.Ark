@@ -1,8 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding, faHouseChimney, faHardHat, faCubes } from "@fortawesome/free-solid-svg-icons";
 import "./css/style.css";
+import { useState } from "react";
 
 function Service(){
+
+  const[isViewMore,setIsViewMore]=useState(false);
+
+  function handleView(){
+    setIsViewMore(!isViewMore);
+  }
 
     return(
       <div className="container-fluid py-5"style={{ 
@@ -44,16 +51,17 @@ function Service(){
 
 
   {/* Button with Styling */}
-  <a href="#" 
+  <a 
     className="btn btn-primary mt-3 py-2 px-4" 
     style={{ borderRadius: "10px" }}
+    onClick={handleView}
   >
-    View More
+    {isViewMore?"View Less":"View More"}
   </a>
 </div>
 
 
-<div className="container my-5">
+{isViewMore?<div className="container my-5">
       {/* Architecture */}
       <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#ffc107", fontWeight: "bold", color: "#111", fontSize: "18px" }}>
         <FontAwesomeIcon icon={faBuilding} className="mr-3 text-white" size="2x" />
@@ -111,7 +119,7 @@ function Service(){
           </ul>
         </div>
       </div>
-    </div>
+    </div>:''}
         </div>
       </div>
     </div>
