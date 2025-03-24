@@ -7,7 +7,10 @@ import img4 from './img/team-4.jpg'
 function Team(){
 
     return(
-        <div className="container-fluid bg-light">
+        <div className="container-fluid bg-light"style={{ 
+          background: "linear-gradient(to bottom, #f8f9fa,rgb(84, 76, 76))", 
+          boxShadow: "0px 10px 30px rgba(0, 0, 0, 0.2)"
+        }}>
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-6">
@@ -28,7 +31,7 @@ function Team(){
                     </div>
                   </div>
                   <div className="d-flex flex-column bg-secondary py-3 align-items-center text-start">
-                      <h5 className="text-white">✔️ AR. MANISH CHANDERASHEKHAR PATIL</h5>
+                      <h5 className="text-white"> AR. MANISH CHANDERASHEKHAR PATIL</h5>
                       <p className="m-0 text-white">(B.ARCH, KOLHAPUR)</p>
                       <p className="m-0 text-white">FOUNDER / DIRECTOR / PRINCIPAL ARCHITECT</p>
                   </div>

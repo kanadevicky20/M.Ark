@@ -52,7 +52,7 @@ function Service(){
 
 <div className="container my-5">
       {/* Architecture */}
-      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#d8a143", fontWeight: "bold", color: "#111", fontSize: "18px" }}>
+      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#ffc107", fontWeight: "bold", color: "#111", fontSize: "18px" }}>
         <FontAwesomeIcon icon={faBuilding} className="mr-3 text-white" size="2x" />
         <div>
           <h3 className="font-weight-bold text-dark">Architecture</h3>
@@ -65,7 +65,7 @@ function Service(){
       </div>
 
       {/* Interior Design */}
-      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#d8a143", fontWeight: "bold", color: "#111", fontSize: "18px" }}>
+      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#ffc107", fontWeight: "bold", color: "#111", fontSize: "18px" }}>
         <FontAwesomeIcon icon={faHouseChimney} className="mr-3 text-white" size="2x" />
         <div>
           <h3 className="font-weight-bold text-dark">Interior Design</h3>
@@ -76,7 +76,7 @@ function Service(){
       </div>
 
       {/* Construction */}
-      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#d8a143" , fontWeight: "bold", color: "#111", fontSize: "18px"}}>
+      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#ffc107" , fontWeight: "bold", color: "#111", fontSize: "18px"}}>
         <FontAwesomeIcon icon={faHardHat} className="mr-3 text-white" size="2x" />
         <div>
           <h3 className="font-weight-bold text-dark">Construction</h3>
@@ -87,7 +87,7 @@ function Service(){
       </div>
 
       {/* 3D Architectural Walkthrough Animation */}
-      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#d8a143" , fontWeight: "bold", color: "#111", fontSize: "18px"}}>
+      <div className="d-flex align-items-center  p-4 shadow rounded mb-3" style={{ backgroundColor: "#ffc107" , fontWeight: "bold", color: "#111", fontSize: "18px"}}>
         <FontAwesomeIcon icon={faCubes} className="mr-3 text-white" size="2x" />
         <div>
           <h3 className="font-weight-bold text-dark">3D Architectural Walkthrough Animation</h3>

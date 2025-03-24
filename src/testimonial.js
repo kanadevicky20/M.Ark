@@ -1,6 +1,6 @@
 import './css/style.css';
 import img1 from './img/vickyimg.jpg';
-import img2 from './img/testimonial-2.jpg';
+import img2 from './img/khileshimg.png';
 import img3 from './img/testimonial.jpg';
 
 function Testimonial(){
@@ -25,7 +25,7 @@ function Testimonial(){
                 </div>
                 <div className="d-flex flex-column">
                   <div className="d-flex align-items-center mb-3">
-                    <img className="img-fluid rounded-circle" src={img1} style={{width: '60px', height: '60px'}} alt="" />
+                    <img className="img-fluid rounded-circle" src={img2} style={{width: '60px', height: '60px'}} alt="" />
                     <div className="ml-3">
                       <h5>Khilesh Bhangale</h5>
                       <i></i>
