@@ -1,0 +1,31 @@
+.bubble-effect {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    animation: bubble 5s infinite ease-in-out;
+  }
+  
+  @keyframes bubble {
+    0% {
+      transform: scale(0.5);
+      /* opacity: 1; */
+    }
+    50% {
+      transform: scale(1.05);
+      /* opacity: 1; */
+    }
+    100% {
+      transform: scale(0.95);
+      /* opacity: 0.8; */
+    }
+  }
+  
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px; /* Fixed height to avoid layout shift */
+  }
+  
+  

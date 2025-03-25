@@ -1,7 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding, faHouseChimney, faHardHat, faCubes } from "@fortawesome/free-solid-svg-icons";
+import { useState, useEffect } from "react";
 import "./css/style.css";
-import { useState } from "react";
+import "./css/carousel.css"; // Custom styles
+import img1 from "./img/proj1.png";
+import img2 from "./img/proj2.png";
 
 function Service(){
 
@@ -10,6 +13,17 @@ function Service(){
   function handleView(){
     setIsViewMore(!isViewMore);
   }
+ 
+  const images = [img1, img2];
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length); // Toggle between img1 and img2
+    }, 3000); // Change every 1 second
+
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
 
     return(
       <div className="container-fluid py-5"style={{ 
@@ -18,48 +32,46 @@ function Service(){
       }}>
       <div className="container py-5">
         <div className="row">
-        <div 
-  className="col-lg-6 pr-lg-5 text-left shadow-sm p-4" 
-  style={{ 
-    backgroundColor: "#17cacf", 
-    borderRadius: "15px", 
-    maxWidth: "100%",
-  }}
->
-  {/* Bold and Styled Heading */}
-  <h6 
-    className="text-white font-black-bold text-uppercase mb-3" 
-    style={{ backgroundColor: "transparent" }}
-  >
-    Our Awesome Services
-  </h6>
+        <div className="row align-items-center">
+      {/* Text Section */}
+      <div 
+        className="col-lg-6 pr-lg-5 text-left shadow-sm p-4" 
+        style={{ 
+          backgroundColor: "#17cacf", 
+          borderRadius: "15px", 
+          maxWidth: "100%",
+        }}
+      >
+        <h6 className="text-white font-black-bold text-uppercase mb-3">
+          Our Awesome Services
+        </h6>
+        <h1 className="mb-4 section-title text-black">
+          Transformation of Spaces through Visionary Architectural Solutions.
+        </h1>
+        <p style={{ fontWeight: "bold", color: "#111", fontSize: "18px" }}>
+          M.ark Design Studio creates innovative, functional, and visually striking architectural solutions 
+          for townships, commercial spaces, and residential developments.
+          <br />
+          A designing firm that offers design and decorating solutions to residential and small-scale commercial projects.
+        </p>
+        <a 
+          className="btn btn-primary mt-3 py-2 px-4" 
+          style={{ borderRadius: "10px" }}
+          onClick={handleView}
+        >
+          {isViewMore ? "View Less" : "View More"}
+        </a>
+      </div>
 
-  {/* Main Section Title */}
-  <h1 className="mb-4 section-title text-black">
-    Transformation of Spaces through Visionary Architectural Solutions.
-  </h1>
-
- {/* Paragraph Text */}
-<p style={{ fontWeight: "bold", color: "#111", fontSize: "18px" }}>
-  M.ark Design Studio creates innovative, functional, and visually striking architectural solutions 
-  for townships, commercial spaces, and residential developments.
-  <br />
-  A designing firm that offers design and decorating solutions to residential and small-scale commercial projects.
-</p>
-
-
-
-
-  {/* Button with Styling */}
-  <a 
-    className="btn btn-primary mt-3 py-2 px-4" 
-    style={{ borderRadius: "10px" }}
-    onClick={handleView}
-  >
-    {isViewMore?"View Less":"View More"}
-  </a>
+      {/* Image Carousel Section */}
+      <div className="col-lg-6 d-flex justify-content-center align-items-center">
+  <div className="image-wrapper" style={{ width: "100%", maxWidth: "500px", padding: "10px" }}>
+    <img src={images[currentImage]} className="bubble-effect" alt="Design" width="100%" />
+  </div>
 </div>
 
+      
+    </div>
 
 {isViewMore?<div className="container my-5">
       {/* Architecture */}
@@ -109,7 +121,7 @@ function Service(){
             <br /> 
             services that will significantly improve and elevate your project.
           </p>
-          <ul className="m-0 text-dark" style={{ fontWeight: "bold", color: "#111", fontSize: "18px", fontWeight: "bold", color: "#111", fontSize: "18px" }}>
+          <ul className="m-0 text-dark" style={{ fontWeight: "bold", color: "#111", fontSize: "18px" }}>
             <li>3D Architectural Rendering</li>
             <li>3D Walkthrough for Apartment</li>
             <li>3D Walkthrough for Commercial Projects</li>
