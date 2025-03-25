@@ -64,8 +64,8 @@ function Service(){
       </div>
 
       {/* Image Carousel Section */}
-      <div className="col-lg-6 d-flex justify-content-center align-items-center">
-  <div className="image-wrapper" style={{ width: "100%", maxWidth: "500px", padding: "10px" }}>
+      <div className="col-lg-6 d-flex justify-content-center align-items-center mt-4 mt-md-0">
+  <div className="image-wrapper">
     <img src={images[currentImage]} className="bubble-effect" alt="Design" width="100%" />
   </div>
 </div>

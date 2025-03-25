@@ -3,23 +3,30 @@ import "./css/style.css";
 import img1 from "./img/B1.png";
 import img2 from "./img/B3.png";
 import img3 from "./img/B4.png";
-import img4 from "./img/L1.png";
+import img4 from "./img/B2.png";
 import img5 from "./img/L2.png";
 import img6 from "./img/L3.png";
-import img7 from "./img/blog-1.jpg";
-import img8 from "./img/blog-2.jpg";
-import img9 from "./img/blog-3.jpg";
+import img7 from "./img/blog-1.png";
+import img8 from "./img/blog-2.png";
+import img9 from "./img/blog-3.png";
+import img10 from "./img/blog-4.png";
+import img11 from "./img/blog-6.png";
+import img12 from "./img/blog-5.png";
 
 const projectsData = [
   { id: 1, category: "first", title: "BEDROOM VIEW", img: img1 },
   { id: 2, category: "first", title: "BEDROOM VIEW", img: img2 },
   { id: 3, category: "first", title: "BEDROOM VIEW", img: img3 },
-  { id: 4, category: "second", title: "LIVING ROOM", img: img4 },
+  { id: 4, category: "second", title: "BEDROOM", img: img4 },
   { id: 5, category: "second", title: "LIVING ROOM", img: img5 },
   { id: 6, category: "second", title: "DRAWING ROOM", img: img6 },
-  { id: 7, category: "third", title: "LIVING ROOM", img: img7 },
-  { id: 8, category: "third", title: "HALL VIEW", img: img8 },
-  { id: 9, category: "third", title: "STUDIO APARTMENT", img: img9 },
+  { id: 7, category: "third", title: "EXTERIOR VIEW", img: img7 },
+  { id: 8, category: "third", title: "EXTERIOR VIEW", img: img8 },
+  { id: 9, category: "third", title: "EXTERIOR VIEW", img: img9 },
+  { id: 10, category: "forth", title: "EXTERIOR VIEW", img: img10 },
+  { id: 11, category: "forth", title: "EXTERIOR VIEW", img: img11 },
+  { id: 12, category: "forth", title: "EXTERIOR VIEW", img: img12 },
+  
 ];
 
 function Project() {
