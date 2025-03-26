@@ -51,13 +51,13 @@ function Project() {
               Our Projects
             </h6>
             <h1 className="mb-4">
-              Here Are a Few Of Our Outstanding Interior Design Projects
+            Here Are A Few Of Our Outstanding Project's
             </h1>
           </div>
         </div>
 
         {/* Filter Buttons */}
-        <div className="row">
+        {/* <div className="row">
           <div className="col-12 text-center mb-2">
             <ul className="list-inline mb-4" id="portfolio-filters">
               <li
@@ -94,7 +94,7 @@ function Project() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
         {/* Project Grid */}
         <div className="row mx-1 portfolio-container">
