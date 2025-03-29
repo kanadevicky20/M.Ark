@@ -8,7 +8,7 @@ import img2 from "./img/proj2.png";
 
 function Service(){
 
-  const[isViewMore,setIsViewMore]=useState(false);
+  const[isViewMore,setIsViewMore]=useState(true);
 
   function handleView(){
     setIsViewMore(!isViewMore);
@@ -54,13 +54,13 @@ function Service(){
           <br />
           A designing firm that offers design and decorating solutions to residential and small-scale commercial projects.
         </p>
-        <a 
+        {/* <a 
           className="btn btn-primary mt-3 py-2 px-4" 
           style={{ borderRadius: "10px" }}
           onClick={handleView}
         >
           {isViewMore ? "View Less" : "View More"}
-        </a>
+        </a> */}
       </div>
 
       {/* Image Carousel Section */}
